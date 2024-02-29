@@ -1,0 +1,7 @@
+version: 1.2
+workflows:
+   - subclass: WDL
+     primaryDescriptorPath: /dockstore.wdl
+     testParameterFiles:
+         - /dockstore.json
+     name: samtools-view_wdl
