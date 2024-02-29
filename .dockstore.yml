@@ -4,4 +4,4 @@ workflows:
      primaryDescriptorPath: /dockstore.wdl
      testParameterFiles:
          - /dockstore.json
-     name: samtools-view_wdl
+     name: samtools-view_terra
